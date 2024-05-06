@@ -6,8 +6,8 @@ async function connect() {
   try {
     const config = {
       server: "LAPTOP-2A8I63E5\\SQLEXPRESS",
-      user: "thanhan123",
-      password: "thanhan123",
+      user: "thanhan",
+      password: "1",
       database: "HR",
       options: {
         encrypt: false,
@@ -17,7 +17,7 @@ async function connect() {
     console.log("connect successfully");
     await sql.connect(config);
   } catch (error) {
-    console.log(error.message);
+    console.log(error.message + "error connect");
   }
 }
 

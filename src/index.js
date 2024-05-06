@@ -9,7 +9,7 @@ const { Server } = require("socket.io");
 const http = require("http");
 
 const app = express();
-const port = 9090;
+const port = 9098;
 
 // connectDB
 connect();
